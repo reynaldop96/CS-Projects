@@ -64,7 +64,7 @@ public class PointSet{
    // cp is a recursive function that takes the list of points
    // sorted by both their x and y coordiantes
    public static PointPair cp (Point2D.Double[] x, Point2D.Double[] y){
-      // if list is less than three points implement brute force algorithm
+      // if list is less than or equal to three points implement brute force algorithm
       if (x.length <= 3) return bruteForce(x);
       
       PointPair closestPair;
@@ -171,9 +171,4 @@ public class PointSet{
       return points;
          }
   }
-         
       
-     
-   
-         
-         
