@@ -2,6 +2,11 @@ from time import process_time
 import sys
 import random
 
+#this file aims at comparing various sorting algorithms such as:
+    #insertion sort
+    #quicksort using different partition pivots
+    #merge sort
+
 def do_test(n):
     print ("Generating " + str(n) + " random numbers")
     a = [random.randint(0, 2**30-1) for i in range(n)]
