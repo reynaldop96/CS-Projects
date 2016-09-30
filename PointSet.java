@@ -33,7 +33,8 @@ public class PointSet{
    }
    
    //compare X sorts points by X coordinate. If X coordinates are equal, 
-   //it sorts points by Y coordinate
+   //it sorts points by Y coordinate. It does this in order to take care of 
+   //the case when there are multiple points along the partition line
    private static class CompareX implements Comparator<Point2D.Double>{
       public int compare (Point2D.Double point1, Point2D.Double point2){
       int a;
