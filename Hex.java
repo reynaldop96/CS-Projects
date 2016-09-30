@@ -1,5 +1,7 @@
 import java.awt.geom.*;
 
+//This class is part of a project. It simulates a hex within a hexagonal grid
+//Within the project, the tasmanian devils inhabit this hexagonal grid. 
 public class Hex{
 
    private int row;
@@ -18,6 +20,7 @@ public class Hex{
    return column;
    }
    
+   //checks if two hexes are equal 
    public boolean equals (Hex other){
    if (other.getRow()==row && other.getColumn()==column)
       return true;
@@ -25,11 +28,13 @@ public class Hex{
       return false;
    }
    
+   //returns the position of the hex in the grid
    public String toString(){
    String a = String.format ("[%d, %d]",row,column);
    return a;
    }
    
+   //returns cartesian coordinate of hex
    public Point2D.Double getCartesian(){
    double x;
    double y;
@@ -45,6 +50,7 @@ public class Hex{
    return coordinate;
    }
    
+   //returns distance from another hex
    public double distance (Hex other){
    Point2D.Double center1 = other.getCartesian();
    Point2D.Double center2 = getCartesian();
@@ -56,6 +62,7 @@ public class Hex{
    return dist;
    }
    
+   //This method allows the tasmanian devil to move one hex closer to its goal
    public Hex closer (Hex goal){
       int colGoal = goal.getColumn();
       int rowGoal = goal.getRow();
@@ -159,6 +166,7 @@ public class Hex{
    return new Hex (row, column);
    }
    
+   //this method checks whether two hexes are adjacent
    public boolean isAdjacent (Hex other){
       if (other.equals(this))
          return false;
@@ -184,12 +192,3 @@ public class Hex{
       return false;
    }
   }
-
-      
-         
-         
-         
-      
-      
-   
-   
