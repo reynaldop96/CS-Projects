@@ -3,7 +3,8 @@ import java.util.NoSuchElementException;
 
 
 /**
- * A binary search tree.
+ * A binary search tree. In this class, I wrote the following methods:
+ 	count(), successor (<E> Node), and enhanced the delete (<E> Node) method. 
  * @version 0.2 2016-09-13 added inorder iterator
  * @version 0.1 2014-10-08
  */
