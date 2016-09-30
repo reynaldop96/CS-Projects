@@ -1,3 +1,7 @@
+//this class is part of a three file project including classes Hex and World. 
+//It simulates a tasmanian devil inhabiting a hexagonal grid
+
+
 public class TasmanianDevil{
 
    private Hex location;
@@ -5,12 +9,7 @@ public class TasmanianDevil{
    private World home;
    private boolean infected;
    
-   public TasmanianDevil(World world){
-      home = world;
-      location = world.randomLocation();
-      goal = world.randomLocation();
-   }
-   
+   //creates a tasmanian devil in a heagonal world and sets whether it is sick or not
    public TasmanianDevil(World w, boolean sick){
       home = w;
       location = w.randomLocation();
@@ -18,27 +17,33 @@ public class TasmanianDevil{
       infected = sick;
    }
    
+   //returns whether the devil is infected
    public boolean isInfected (){
       return infected;
        }
       
+   //returns location of the devil on the hexagonal grid
    public Hex getLocation(){
    return location;
    }
    
+   //returns the hex that the devil is moving towards
    public Hex getGoal(){
    return goal;
    }
    
+   //infects the devil
    public void infect(){
       infected = true;
    }
    
+   //returns the current location of the devil and the goal it is moving towards
    public String toString(){
    String a = location + "->" + goal;
    return a;
    }
    
+   //it moves the devil one step closer. This uses a method within Hex.java 
    public void move (){
    if (location.equals(goal))
       goal = home.randomLocation();   
