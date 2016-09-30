@@ -4,8 +4,6 @@ import java.util.NoSuchElementException;
 
 /**
  * A binary search tree.
- *
- * @author Jim Glenn
  * @version 0.2 2016-09-13 added inorder iterator
  * @version 0.1 2014-10-08
  */
