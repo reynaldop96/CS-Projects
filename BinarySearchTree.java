@@ -3,14 +3,14 @@ import java.util.NoSuchElementException;
 import java.lang.management.*;
 import java.util.*;
 /**
- * A Splay Tree.
- *
+ * An implementation of a Splay Tree using intervals of numbers as nodes.
+ * By using intervals, we ensure that all of our methods work in amortized O(logn) time. 
  * @author Reynaldo Pena
  * @version 0.2 2016-09-13 added inorder iterator
  * @version 0.1 2014-10-08
  */
 
-public class BinarySearchTree implements IntSet301
+public class SplayTree implements IntSet301
 {
 
     private Node root;
@@ -651,113 +651,4 @@ public class BinarySearchTree implements IntSet301
 	    return "<" + start + "," + end + ">";
 	    }
     }
-   
-   
-    
-   
-    public static void main(String[] args)
-    {
-    
-    ThreadMXBean bean = ManagementFactory.getThreadMXBean();
-    
-	BinarySearchTree s = new BinarySearchTree();
-//    int[] store = null;
-// 	int[] testValues = new int[500000];
-//       for (int f = 0; f<500000; f++){ 
-//       testValues[f] = (int)(Math.random()*10000000);
-//    }
-//    
-//    
-//    //remove is removing more than it should
-//    
-//    store = testValues;
-//    
-//    //System.out.println(store.indexOf( 9156679));
-// //    //(int)(Math.random()*10000000);
-// // 
-// //    int[] test = new int[50];
-// //    int j = 0;
-// //    for (int f = 0; f<50; f=f++){ 
-// //       test[f] = j+2;
-// //    }
-// // // 
-// //     
-// // 
-//    	for (int i : testValues)
-// 	    {
-// 		//System.out.printf("=== ADDING %d ===\n", i);
-// 		s.add(i);	
-// 	}
-//    
-//    for (int j=4999990; j<testValues.length; j++){
-//       System.out.println(s.containsNew(testValues[j]));
-//       }
-// 
-//    
-//  long t = bean.getCurrentThreadUserTime();
-//    int fail = 0;
-//    Node hi= s.root;
-//    int index =0;
-//    try{
-//    for (int i=0; i<testValues.length; i++){
-//    if (s.size() <=3){
-//       System.out.println(s);
-//        System.out.println(testValues[i]);
-//        System.out.println("array index: " + i);
-//       }
-//   fail = i;
-//   hi = s.root;
-//       s.remove(testValues[i]);
-//       }
-//     }
-//     catch(NullPointerException E) {
-//     System.out.println("fail");
-//     System.out.println(fail);
-//     System.out.println(s.size);
-//     System.out.println();
-//     System.out.println(s);}
-// 
-//       
-//       System.out.printf ("add took %f seconds.\n",
-//  			       (bean.getCurrentThreadUserTime()-t) / 1e9);
-
-   int[] test = new int[100];
-   int j = 0;
-   for (int f = 0; f<100; f++){ 
-      test[f] = j;
-      j= j+2;
-      }
-
-   	for (int i : test)
-	    {
-		//System.out.printf("=== ADDING %d ===\n", i);
-		s.add(i);	
-	}
-   
-  
-long t = bean.getCurrentThreadUserTime();
-
-		for (int i = 0; i < 100; i++)
-		    {
-			int a = s.nextExcluded(test[i]);
-         System.out.println(a);
- 		    }
-          
-          
-          System.out.printf ("add took %f seconds.\n",
- 			       (bean.getCurrentThreadUserTime()-t) / 1e9);
-
-// 	    
-// // 
-// 
-// // 	for (int i = 0; i <= 11; i++)
-// // 	    {
-// // 		System.out.println(i + ": " + s.contains(i));
-// // 	    }
-// // 	System.out.println(s);
-// // 
-
-
-}
-
-    }
+  }
