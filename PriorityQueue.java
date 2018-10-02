@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * For use with ShortestPathsMain
+ * For use with ShortestPathsMain as part of Dijkstra's Shortest Paths Algorithm
  * A priority queue.  When items are added, they are given priorities.
  * Only the item with lowest priority can be removed.  "Lowest" is determined
  * by the natural order of the values.  Priorities of
