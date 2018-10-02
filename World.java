@@ -3,6 +3,7 @@ import java.util.List;
 import java.awt.geom.Point2D;
 
 /**
+ * @author Reynaldo Peña
  * This class is part of a project simulation containing classes Hex and TasmanianDevil. 
  * The directions of the project were as follows: 
  	Write classes to complete a simulation of devils moving around a hex-grid world infecting 
