@@ -1,4 +1,5 @@
 /**
+ * @author Reynaldo Peña
  * This class is part of a project simulation containing classes Hex and World. 
  * The directions of the project were as follows: 
  	Write classes to complete a simulation of devils moving around a hex-grid world infecting 
@@ -10,9 +11,10 @@
 	devils are at the same location and one of them is infected with DFTD and the other is not, there is an 
 	80% chance that the other devil becomes infected (if more than two devils are at the same location, this 
 	interaction should be repeated for each pair of devils).
- 
+
 This class simulates an individual tasmanian devil inhabiting a hex-grid world. 
 */
+
 
 public class TasmanianDevil{
 
