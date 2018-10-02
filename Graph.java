@@ -8,6 +8,7 @@ import java.util.Iterator;
 
 /**
  * An unweighted, simple graph.
+ * For use with ShortestPathsMain
  *
  * @param K the type of the vertices
  * @author Jim Glenn
