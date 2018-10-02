@@ -2,6 +2,7 @@ from time import process_time
 import sys
 import random
 
+#author Reynaldo Pena
 #this file aims at comparing various sorting algorithms such as:
     #insertion sort
     #quicksort using different partition pivots
