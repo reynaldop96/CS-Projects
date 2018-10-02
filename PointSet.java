@@ -2,7 +2,7 @@ import java.awt.geom.Point2D;
 import java.util.*;
 import java.util.Collections;
 
-/*Reynaldo Pena 
+/* Author @ Reynaldo Pena 
 This class is part of a project to find the pair of 2D points that are 
 the closest apart, given an input of 2D points. Instead of 
 a brute force solution, which entails checking every pair of points in 
