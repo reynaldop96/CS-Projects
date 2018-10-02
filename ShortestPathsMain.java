@@ -3,7 +3,8 @@ import java.io.*;
 
 public class ShortestPathsMain
 
-/*This class uses the following classes: WeightedGraph, Graph, Neighbor, PriorityQueue.
+/* Autho @ Reynaldo Peña
+  This class uses the following classes: WeightedGraph, Graph, Neighbor, PriorityQueue.
   This project attempts to find the shortest path between two vertices in a two dimensional, weighted
   and undirected graph using Dijkstra's shortest paths algorithm. It does this in an efficient time 
   complexity of O(k^2 *logk + p), where k is the number of vertices, p is the total length in edges 
