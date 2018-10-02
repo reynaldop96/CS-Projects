@@ -9,6 +9,8 @@ import java.util.Collection;
 import java.util.*;
 
 /**
+ * Author @ Reynaldo Peña
+ * For use with ShortestPathsMain
  * An undirected, weighted, simple graph.  The vertex set is static; edges
  * may be added but not removed. This graph has two implementations: a corner graph
  * where edges represent shortest paths, and a normal weighted graph. 
