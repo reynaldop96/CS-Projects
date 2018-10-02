@@ -1,6 +1,7 @@
 import java.awt.geom.*;
 
 /**
+ * Author @ Reynaldo Pena
  * This class is part of a project simulation containing classes World and TasmanianDevil. 
  * The directions of the project were as follows: 
  	Write classes to complete a simulation of devils moving around a hex-grid world infecting 
