@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 /**
  * An unweighted, simple graph.
- * For use with ShortestPathsMain
+ * For use with ShortestPathsMain for Dijkstra's Shortest Paths Algorithm
  *
  * @param K the type of the vertices
  * @author Jim Glenn
