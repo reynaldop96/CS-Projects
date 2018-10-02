@@ -1,5 +1,6 @@
 """ An implementation of heapsort. """
 #This algorithm aims at comparing heapsort time complexity with that of insertion sort.
+#@author Reynaldo Pena
 
 import sys
 import random
