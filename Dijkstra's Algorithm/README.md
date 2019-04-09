@@ -33,4 +33,3 @@
  - each cell is connected,
  - the graph is connected, and 
  - the source and destination vertices for shortest path queries exist and are non-corner vertices in different cells.
- 
