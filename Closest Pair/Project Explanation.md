@@ -1,4 +1,4 @@
-Closest Pair Algorithm in time O(nlogn)
+**Closest Pair Algorithm in time O(nlogn)**
 
 This class is part of a project to find the pair of 2D points that are 
 the closest apart, given an input of 2D points. Instead of 
