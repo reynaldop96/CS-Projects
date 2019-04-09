@@ -13,9 +13,8 @@
   Then it computes the shortest path (using the corner graph) between the starting and the ending corner vertices. 
   Then it combines these paths to get the shortest path overall. 
   The algorithm prints the total weight of the shortest path and the vertices along it. 
- */
- 
- /*NOTE ON RUNNING THE PROGRAM!!!
+
+ NOTE ON RUNNING THE PROGRAM!!!
  As state by Professor Jim Glenn:
  - the input must be read from standard input where:
    a) the first line of input is three integers giving the width and height of the grid,
@@ -34,4 +33,4 @@
  - each cell is connected,
  - the graph is connected, and 
  - the source and destination vertices for shortest path queries exist and are non-corner vertices in different cells.
- */
+ 
