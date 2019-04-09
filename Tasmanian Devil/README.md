@@ -1,6 +1,6 @@
-  Tasmanian Devil Project
+  **Tasmanian Devil Project**
   
-  The directions of the project were as follows: 
+  The instructions for the project were as follows: 
  	Write classes to complete a simulation of devils moving around a hex-grid world infecting 
 	each other with devil facial tumor disease (DFTD). A world will be specified by the width of the 
 	grid (the height should be chosen so that the world is roughly square in terms of Cartesian coordinates),
