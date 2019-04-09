@@ -1,4 +1,4 @@
-  Dijkstra's Shortest Paths Algorithm Implementation
+  **Dijkstra's Shortest Paths Algorithm Implementation**
   
   This project attempts to find the shortest path between two vertices in a two dimensional, weighted
   and undirected graph using Dijkstra's shortest paths algorithm. It does this in an efficient time 
@@ -15,7 +15,7 @@
   The algorithm prints the total weight of the shortest path and the vertices along it. 
 
  NOTE ON RUNNING THE PROGRAM!!!
- As state by Professor Jim Glenn:
+ As stated by Professor Jim Glenn:
  - the input must be read from standard input where:
    a) the first line of input is three integers giving the width and height of the grid,
    b) the rest of the input is divided into two sections separated by the word "queries" on a separate line, where
