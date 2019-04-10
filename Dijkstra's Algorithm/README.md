@@ -3,7 +3,7 @@
   This project attempts to find the shortest path between two vertices in a two dimensional, weighted
   and undirected graph using Dijkstra's shortest paths algorithm. It does this in an efficient time 
   complexity of O(k^2 *logk + p), where k is the number of vertices, p is the total length in edges 
-  of all of the shortest paths reported, and uising an expected O(k) edges. 
+  of all of the shortest paths reported, and using an expected O(k) edges. 
   In order to achieve this time complexity, I used two types of graphs: a corner graph and a normal weighted graph.
   The corner graph is a grid (composed of squares), where each square is a normal weighted graph with vertices 
   and edges living inside it. The corner graph is a grid graph whose edges within each square of the grid represent the 
