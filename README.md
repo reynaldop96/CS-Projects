@@ -24,7 +24,7 @@ Then, we employ Dijkstra's Shortest Paths Algorithm between the origin vertex v0
 
 Finally, we return the total path and its weight. 
 
-<img src="https://github.com/reynaldop96/PICTURES/blob/master/pic5.png" width="750">
+<img src="https://github.com/reynaldop96/PICTURES/blob/master/pic5.png" width="500">
 
 
 
