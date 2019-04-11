@@ -22,7 +22,7 @@ Then, we employ Dijkstra's Shortest Paths Algorithm between the origin vertex v0
 
 <img src="https://github.com/reynaldop96/PICTURES/blob/master/pic7.png" width="1000">
 
-Finally, we return the total path and its weight. 
+Finally, we return the total path and its weight in time complexity of O(k^2 *logk + p), where k is the number of vertices, p is the total length in edges of all of the shortest paths reported, and using an expected O(k) edges. 
 
 <img src="https://github.com/reynaldop96/PICTURES/blob/master/pic5.png" width="500">
 
