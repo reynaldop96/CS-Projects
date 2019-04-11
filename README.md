@@ -12,7 +12,7 @@ This repository contains some of the computer programming projects I did in my p
 Suppose we want to find the shortest path between vertex v0.0.0 and v2.2.0.
 To achieve a more efficient time complexity using Dijkstra's Shortest Paths Algorithm, we first convert the weighted, undirected graph (left below) into a graph living inside a grid (right below):
 
-<img src="https://github.com/reynaldop96/PICTURES/blob/master/pic6.png" width="1000">
+<img src="https://github.com/reynaldop96/Android/blob/master/PhotoGalleryApp/gradle/wrapper/pic6.png" width="1000">
 
 Then, we employ Dijkstra's Shortest Paths Algorithm to find shortest path (using green triangles) between all (blue) vertices of the new grid, and we set the weight (in red below) to each edge between the (blue) vertices.  Blue vertices that don't have a direct path to each other using green triangles are set to infinity. 
 
@@ -20,11 +20,11 @@ Then, we employ Dijkstra's Shortest Paths Algorithm to find the shortest path be
 
 (**Note: To find global shortest path between v0.0.0 and v2.2.0, we have to consider all possible paths between all 4 adjacent blue vertices to v0.0.0 and all 4 adjacent blue vertices to v2.2.0. This is not an issue because there are a maximum of 8 choose 2 = 28 shortest paths to consider).**
 
-<img src="https://github.com/reynaldop96/PICTURES/blob/master/pic7.png" width="1000">
+<img src="https://github.com/reynaldop96/Android/blob/master/PhotoGalleryApp/gradle/wrapper/pic7.png" width="1000">
 
 Finally, we return the global shortest path betweeen v0.0.0 and v2.2.0 and its total weight in time complexity of O(k^2 *logk + p), where k is the number of vertices, p is the total length in edges of all of the shortest paths reported, and using an expected O(k) edges. 
 
-<img src="https://github.com/reynaldop96/PICTURES/blob/master/pic5.png" width="500">
+<img src="https://github.com/reynaldop96/Android/blob/master/PhotoGalleryApp/gradle/wrapper/pic5.png" width="500">
 
 
 
