@@ -9,7 +9,7 @@ This repository contains some of the computer programming projects I did in my p
 
 **Modified Dijkstra's Shortest Paths Algorithm Explained:**
 
-Suppose we want to find the shortest path between vertex v0.0.0 and v2.2.0
+Suppose we want to find the shortest path between vertex v0.0.0 and v2.2.0.
 To achieve a more efficient time complexity using Dijkstra's Shortest Paths Algorithm, we first convert the weighted, undirected graph (left below) into a graph living inside a grid (right below):
 
 <img src="https://github.com/reynaldop96/PICTURES/blob/master/pic6.png" width="1000">
